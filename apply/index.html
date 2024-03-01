@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply</title>
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+    <!-- Apply Directive class
+            Ye use hoti hai, some set of class ko ek class se use kar sakhe 
+            @apply ye use karte hai main.css file ke aandar -->
+            <!-- Use @apply to inline any existing utility classes into your own custom CSS.
+
+            This is useful when you need to write custom CSS (like to override the styles in a third-party library) but still want to work with your design tokens and use the same syntax you’re used to using in your HTML.
+            
+            .select2-dropdown {
+              @apply rounded-b-lg shadow-md;
+            }
+            .select2-search {
+              @apply border border-gray-300 rounded;
+            }
+            .select2-results__group {
+              @apply text-lg font-bold text-gray-900;
+            } -->
+
+
+            <!-- Layer Directive Class 
+            Use the @layer directive to tell Tailwind which “bucket” a set of custom styles belong to. Valid layers are base, components, and utilities.
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-2xl;
+  }
+  h2 {
+    @apply text-xl;
+  }
+}
+
+@layer components {
+  .btn-blue {
+    @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded;
+  }
+}
+
+@layer utilities {
+  .filter-none {
+    filter: none;
+  }
+  .filter-grayscale {
+    filter: grayscale(100%);
+  }
+} -->
+
+</body>
+</html>
